@@ -4,18 +4,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample POC for Github Pages</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CNANO Touch Compatibility Check</title>
     <style>
-        h1 {
-            color: #2196f3
+        table.fixed,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            table-layout: fixed;
+            text-align: center;
+        }
+
+        table.fixed tr {
+            height: 20px;
+        }
+
+        table.fixed td {
+            width: 10px;
+            overflow: hidden;
+            word-wrap: break-word;
+            border: 1px solid black;
+        }
+
+        div.right {
+            position: absolute;
+            top: 80px;
+            right: 0px;
+            width: 750px;
+            height: 750px;
+            border: 1px solid #000000;
+        }
+
+        div.left {
+            position: absolute;
+            top: 80px;
+            left: 0px;
+            width: 750px;
+            height: 750px;
+            border: 1px solid #080808;
+        }
+
+        div.righRelative {
+            position: absolute;
+            top: 80px;
+            right: 0px;
+            width: 750px;
+            height: 750px;
+            border: 1px solid #000000;
         }
     </style>
 </head>
 
 <body>
-    <h1>
-        Welocome to TXFG Touch Github Pages
-    </h1>
+    <select name="mcuBoardName" id="mcuBoardList">
+        <option size="7">Select MCU board from the list... </option>
+    </select>
+    <br />
+    <select name="extBoardName" id="extBoardList">
+        <option size="7">Select Touch board from the list... </option>
+    </select>
+
+    <br />
+    <br />
+
+
+    <div class="left">
+        <table class="fixed" id="heading" style="position: absolute; left: 150px;">
+            <col width=150 />
+            <col width=150 />
+            <col width=150 />
+            <col width=150 />
+            <tr>
+                <th></th>
+                <th></th>
+                <th>CNANO</th>
+                <th>Extension</th>
+            </tr>
+            <tr>
+                <th>EXT Pin#</th>
+                <th>Function</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
+        <table class="fixed" id="heading1" style="position: absolute; top: 45px;">
+            <col width=150 />
+            <tr style="background-color: rgb(128,128,0) ">
+                <td rowspan="16">EXT1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>15</td>
+            </tr>
+            <tr style="background-color: rgb(0,128,128) ">
+                <td rowspan="16">EXT2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>15</td>
+            </tr>
+        </table>
+        <table class="fixed" id="mainTable" style="position: absolute; top: 45px; left: 150px;">
+            <col width=150 />
+            <col width=150 />
+            <col width=150 />
+            <col width=150 />
+        </table>
+    </div>
+
+    <div class="right">
+        <table class="fixed" id="mainTable1">
+            <col width=150 />
+            <col width=150 />
+            <col width=150 />
+            <col width=150 />
+            <tr>
+                <th></th>
+                <th>EXT Pin#</th>
+                <th>Function</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="index.js"> </script>
 </body>
 
 </html>
