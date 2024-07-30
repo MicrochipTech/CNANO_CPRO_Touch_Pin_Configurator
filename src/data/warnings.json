@@ -1,0 +1,33 @@
+{
+    "common": {
+        "CNANO": {
+            "warnings": "This MCU supports two level Driven Shield. Selected Touch Extention board may not work well with this MCU when Drivne shield option is used."
+        },
+        "XPRO": {
+            "warnings": "This MCU supports two level Driven Shield. Selected Touch Extention board may not work well with this MCU when Drivne shield option is used."
+        }
+    },
+    "device": {
+        "CNANO": {
+            "ATtiny3217": {
+                "warnings": [
+                    "ATtiny3217 Device Based Warning"
+                ]
+            }
+        },
+        "XPRO": {
+            "SAMD21": {
+                "warnings": [
+                    "SAMD21 Device Based Warning"
+                ]
+            }
+        }
+    },
+    "extensions": {
+        "QT2_Matrix_Surface": {
+            "warnings": [
+                "Extension Warning"
+            ]
+        }
+    }
+}
