@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CNANO_CPRO_Touch_Pin_Configurator/static/css/main.c7a65057.css",
-    "main.js": "/CNANO_CPRO_Touch_Pin_Configurator/static/js/main.91e50bfb.js",
+    "main.js": "/CNANO_CPRO_Touch_Pin_Configurator/static/js/main.93702990.js",
     "static/js/453.9133b17f.chunk.js": "/CNANO_CPRO_Touch_Pin_Configurator/static/js/453.9133b17f.chunk.js",
     "static/media/roboto-latin-500-normal.woff2": "/CNANO_CPRO_Touch_Pin_Configurator/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/CNANO_CPRO_Touch_Pin_Configurator/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
@@ -61,11 +61,11 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/CNANO_CPRO_Touch_Pin_Configurator/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/CNANO_CPRO_Touch_Pin_Configurator/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "main.c7a65057.css.map": "/CNANO_CPRO_Touch_Pin_Configurator/static/css/main.c7a65057.css.map",
-    "main.91e50bfb.js.map": "/CNANO_CPRO_Touch_Pin_Configurator/static/js/main.91e50bfb.js.map",
+    "main.93702990.js.map": "/CNANO_CPRO_Touch_Pin_Configurator/static/js/main.93702990.js.map",
     "453.9133b17f.chunk.js.map": "/CNANO_CPRO_Touch_Pin_Configurator/static/js/453.9133b17f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7a65057.css",
-    "static/js/main.91e50bfb.js"
+    "static/js/main.93702990.js"
   ]
 }
